@@ -1,105 +1,170 @@
+<div align="center">
+
 # Андрей Сырчин
 
-**Разработка ПО · Backend · Machine Learning**
+**Software Development · Backend · Machine Learning**
 
-Студент Университета ИТМО. Разрабатываю учебные и командные проекты — от алгоритмов и обработки данных до backend-сервисов, ML-моделей и веб-приложений. Интересуюсь тем, как превращать технические идеи в работающие решения.
+Студент Университета ИТМО. Проектирую и собираю программные решения — от алгоритмов и C++-компонентов до backend-сервисов, ML-пайплайнов и веб-приложений.
 
-## 🧰 Технологии
+<a href="https://l1234-tech.github.io/"><strong>Портфолио ↗</strong></a> · <a href="https://github.com/l1234-tech?tab=repositories">Все репозитории</a> · <a href="https://t.me/dark_kurom1">Telegram</a>
 
-**Языки:** Python · C++ · Java · JavaScript · SQL  
-**Backend и веб:** FastAPI · Django · REST API · HTML · CSS  
-**Data Science / ML:** pandas · scikit-learn · обработка данных · обучение и оценка моделей  
-**Базы данных:** PostgreSQL · SQLite  
-**Инструменты:** Git · GitHub · pytest · CMake  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-7C3AED?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-**Изучаю и применяю в учебных проектах:** Spring Boot · JWT · Docker · CI/CD
+</div>
 
-## 🚀 Основные проекты
+---
 
-### 🏦 ML Service — сервис оценки кредитного риска
-[Репозиторий](https://github.com/l1234-tech/ml-service)
+## 👋 Обо мне
 
-Backend-сервис для получения предсказаний ML-модели по данным заёмщиков.
+Мой основной интерес — разработка программного обеспечения на стыке **backend, алгоритмов и машинного обучения**. В проектах работаю с обработкой данных, API, моделями классификации, автоматизацией и визуализацией результатов.
 
-- REST API на FastAPI и обработка входных данных.
-- Предсказания для отдельных записей и CSV-файлов.
-- Валидация, логирование и автоматизированные проверки.
+- 🎓 **Университет:** ИТМО
+- 🧠 **Фокус:** Python, C++, backend-разработка, ML
+- 🛠️ **Практика:** собственные и командные проекты, хакатоны, алгоритмические задачи
+- 🌐 **Портфолио:** [l1234-tech.github.io](https://l1234-tech.github.io/)
 
-**Стек:** Python · FastAPI · Machine Learning · pytest · CI/CD
+## 🚀 Избранные проекты
 
-### 📄 PDF Parsing — обработка PDF-документов
-[Репозиторий](https://github.com/l1234-tech/GPN_hacaton)
+Я выделяю проекты с понятной задачей, содержательной реализацией и документацией. Учебные архивы и незавершённые эксперименты вынесены отдельно.
 
-Преобразование PDF-документов в Markdown с использованием Docling.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Извлечение текста и обработка структуры документов.
-- Работа с таблицами и настройками обработки.
-- Подготовка результатов для последующего анализа.
+### 🏦 ML Service
+**Сервис предсказания кредитного риска**
+
+API для получения предсказаний ML-модели по отдельным записям и CSV-данным. Включает валидацию запросов, интеграцию модели и проверки сервиса.
+
+**Стек:** Python · FastAPI · ML · pytest
+
+[Репозиторий →](https://github.com/l1234-tech/ml-service)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 Neural Perceptron
+**Нейронная сеть на C++17**
+
+Реализация сети для классификации с двумя вариантами обучения: градиентным спуском и генетическим алгоритмом. В проекте есть метрики, тесты, визуализации и Python bindings.
+
+**Стек:** C++17 · CMake · pybind11 · Python
+
+[Репозиторий →](https://github.com/l1234-tech/neural-perceptrone)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📄 PDF Parsing · Docling
+**Обработка PDF в Markdown**
+
+Baseline-решение для хакатона: преобразование документов в Markdown с поддержкой структуры, таблиц и изображений, настройками качества и пакетного запуска.
 
 **Стек:** Python · Docling · PDF · Markdown
 
-### 🧠 Neural Network in C++
-[Репозиторий](https://github.com/l1234-tech/ai-project-c-)
+[Репозиторий →](https://github.com/l1234-tech/GPN_hacaton)
 
-Командный проект по реализации нейросетевых алгоритмов классификации.
+</td>
+<td width="50%" valign="top">
 
-- Реализация на C++.
-- Эксперименты с градиентным спуском и генетическим алгоритмом.
-- Утилиты для данных, метрики и визуализация результатов.
+### 🩺 Oncology Research Assistant
+**Мультиагентный помощник для исследования научных источников**
 
-**Стек:** C++ · CMake · Python · Machine Learning
+Проект исследует применение AI-агентов для поиска, оценки и синтеза научной информации с обращением к медицинским источникам и локальным документам.
 
-### 🎓 Student Management — система управления студентами
-[Репозиторий](https://github.com/l1234-tech/student-management)
+**Стек:** Python · LLM · Retrieval · SQLite
 
-Веб-приложение для учёта студентов и данных общежития.
+> Репозиторий приватный; ссылка на него не публикуется.
 
-- Добавление, редактирование и просмотр записей.
-- Формы, CRUD-операции и валидация.
-- REST API и работа с данными; в проекте также изучается архитектура Spring Boot backend.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Стек:** JavaScript · HTML · CSS · Django REST Framework · Spring Boot · SQL
+### 🏛️ Просвещённый абсолютизм Екатерины II
+**Исследовательский сайт**
 
-### 🪑 MEBea — сайт мебельной компании
-[Репозиторий](https://github.com/l1234-tech/mebea)
+Сайт индивидуального проекта по истории: анализ эпохи дворцовых переворотов и политики Екатерины II, структурированное изложение исследования и источников.
 
-Сайт для представления продукции и услуг мебельной компании.
+**Стек:** MkDocs Material · Markdown · CSS
 
-- Вёрстка интерфейса.
-- Интерактивность на JavaScript.
-- Небольшое серверное окружение для запуска сайта.
+[Репозиторий →](https://github.com/l1234-tech/pr-absolutism) · [Сайт-портфолио →](https://l1234-tech.github.io/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🪑 MEBea
+**Сайт мебельной компании**
+
+Адаптивный сайт каталога с отдельными страницами направлений, интерактивными карточками и структурой, которую можно расширять новыми объектами.
 
 **Стек:** HTML · CSS · JavaScript · Node.js
 
-## 🎓 Учебные и дополнительные проекты
+[Репозиторий →](https://github.com/l1234-tech/mebea)
 
-- 📚 [Портфолио лабораторных работ](https://github.com/l1234-tech/l1234-tech.github.io) — сайт-портфолио на MkDocs Material.
-- 📝 [Django Notes](https://github.com/l1234-tech/1_sem_hacaton_mast_syr) — приложение для заметок с авторизацией, поиском и тегами.
-- 🏛️ [Исторический проект](https://github.com/l1234-tech/pr-absolutism) — сайт об эпохе просвещённого абсолютизма Екатерины II.
-- 🧩 [Алгоритмы и задачи](https://github.com/l1234-tech/algosi) — сборник задач по алгоритмам.
+</td>
+</tr>
+</table>
 
-## 🏆 Образование и достижения
+## 🏆 Хакатоны и командная работа
 
-### Университет ИТМО
-- Первые два семестра завершены на отлично.
-- Изучаю программирование, алгоритмы, базы данных и разработку программных систем.
+### Digital Health
+Участие в командном проекте на стыке технологий и цифрового здравоохранения.
 
-### Хакатоны и проектные мероприятия
-- **ML4Pay — хакатон Avito:** командная работа над задачами на стыке машинного обучения и разработки.
-- **Project School — Avito:** проектная образовательная программа, работа над идеями и техническими решениями.
-- **Digital Health:** участие в хакатоне с задачами в сфере цифрового здравоохранения.
+### ML4Pay / Avito и Project School
+Командная работа над прикладными задачами, связанными с ML, разработкой и подготовкой технических решений.
 
-### Образовательные программы
-- **Top-level DS 2025:** развитие навыков анализа данных, подготовки датасетов, feature engineering и построения ML-моделей.
+### PDF Parsing
+Практическая реализация baseline для обработки PDF-документов на Docling — доступный код и инструкция находятся в [GPN_hacaton](https://github.com/l1234-tech/GPN_hacaton).
 
-## 🎯 Интересы
+## 🧪 Учебные и инженерные репозитории
 
-Backend-разработка · Machine Learning · анализ данных · REST API · автоматизация · архитектура приложений
+Эти репозитории служат структурированным архивом работ и практики. Они дополняют основные проекты, но не смешаны с ними.
 
-## 📬 Контакты
+| Направление | Репозиторий | Содержание |
+|---|---|---|
+| Алгоритмы | [itmo-algorithms](https://github.com/l1234-tech/itmo-algorithms) | Темы курса, структуры данных, задачи и решения |
+| Python | [lr-python](https://github.com/l1234-tech/lr-python) | Лабораторные, тесты, бенчмарки, веб-разработка и анализ данных |
+| C++ | [itmo-C](https://github.com/l1234-tech/itmo-C) | Основы языка, функции, указатели, классы и ООП |
+| Базы данных | [itmo-db](https://github.com/l1234-tech/itmo-db) | Репозиторий для лабораторных по БД; наполнение в процессе |
+| Управление студентами | [student-management](https://github.com/l1234-tech/student-management) | Учебное веб-приложение: CRUD, валидация, REST API и варианты backend-архитектуры |
+| Django Notes | [1_sem_hacaton_mast_syr](https://github.com/l1234-tech/1_sem_hacaton_mast_syr) | Приложение заметок с регистрацией, приватными заметками, поиском и тегами |
+| Портфолио и материалы | [l1234-tech.github.io](https://github.com/l1234-tech/l1234-tech.github.io) | Исходники персонального сайта и учебные работы |
 
-- Telegram: [@dark_kurom1](https://t.me/dark_kurom1)
-- GitHub: [l1234-tech](https://github.com/l1234-tech)
-- Портфолио: [l1234-tech.github.io](https://l1234-tech.github.io/)
+## 🧰 Технологии
 
-*Открыт к стажировкам и проектам в области разработки ПО, backend и машинного обучения.*
+<div align="center">
+
+**Languages**  
+Python · C++ · Java · JavaScript · SQL
+
+**Backend & Web**  
+FastAPI · Django · REST API · HTML · CSS
+
+**Machine Learning & Data**  
+pandas · scikit-learn · preprocessing · classification · metrics · visualization
+
+**Databases & Tooling**  
+PostgreSQL · SQLite · Git · GitHub Actions · pytest · CMake · pybind11
+
+</div>
+
+## 📫 Контакты
+
+- **Telegram:** [@dark_kurom1](https://t.me/dark_kurom1)
+- **GitHub:** [l1234-tech](https://github.com/l1234-tech)
+- **Сайт-портфолио:** [l1234-tech.github.io](https://l1234-tech.github.io/)
+
+---
+
+<div align="center">
+
+*Открыт к стажировкам и командным проектам в backend-разработке, ML и создании программных продуктов.*
+
+</div>
