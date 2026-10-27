@@ -76,11 +76,11 @@ Baseline-решение для хакатона: преобразование д
 ### 🩺 Oncology Research Assistant
 **Мультиагентный помощник для исследования научных источников**
 
-Проект исследует применение AI-агентов для поиска, оценки и синтеза научной информации с обращением к медицинским источникам и локальным документам.
+Система с агентами Researcher, Critic и Synthesizer для поиска, оценки и структурирования научной информации из PubMed, ClinicalTrials.gov и локальных PDF-документов.
 
-**Стек:** Python · LLM · Retrieval · SQLite
+**Стек:** Python · Google Gemini API · sentence-transformers · SQLite
 
-> Репозиторий приватный; ссылка на него не публикуется.
+[Репозиторий →](https://github.com/l1234-tech/oncology-research-assistant)
 
 </td>
 </tr>
